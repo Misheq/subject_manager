@@ -79,7 +79,7 @@ Főoldal
 
 Tárgy felvétele
 
-![oldalvazlat2](docs/img/hozzad.jpg)
+![oldalvazlat2](docs/img/hozzaad.jpg)
 
 ## Adatmodell
 
