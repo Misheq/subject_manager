@@ -94,7 +94,7 @@ var ormConfig = {
         }
     },
     defaults: {
-        migrate: 'alter'
+        migrate: 'safe'
     }
 };
 
