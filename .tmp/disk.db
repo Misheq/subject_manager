@@ -1,0 +1,207 @@
+{
+  "data": {
+    "subject": [
+      {
+        "targy": "C++",
+        "kredit": "5",
+        "terem": "00-112",
+        "createdAt": "2015-10-30T09:25:55.920Z",
+        "updatedAt": "2015-10-30T09:25:55.920Z",
+        "id": 3
+      },
+      {
+        "targy": "alkalmazas fejlesztes",
+        "kredit": "3",
+        "terem": "2-104",
+        "createdAt": "2015-10-30T09:26:19.610Z",
+        "updatedAt": "2015-10-30T09:26:19.610Z",
+        "id": 4
+      },
+      {
+        "targy": "java",
+        "kredit": "4",
+        "terem": "lovi",
+        "createdAt": "2015-10-30T09:26:30.902Z",
+        "updatedAt": "2015-10-30T09:26:30.902Z",
+        "id": 5
+      },
+      {
+        "targy": "java",
+        "kredit": "6",
+        "terem": "3-126",
+        "createdAt": "2015-10-30T09:32:43.666Z",
+        "updatedAt": "2015-10-30T09:32:43.666Z",
+        "id": 7
+      },
+      {
+        "targy": "a",
+        "kredit": "",
+        "terem": "a",
+        "user": 3,
+        "createdAt": "2015-10-31T15:14:58.743Z",
+        "updatedAt": "2015-10-31T15:14:58.743Z",
+        "id": 8
+      },
+      {
+        "targy": "c++",
+        "kredit": "5",
+        "terem": "00-112",
+        "user": 1,
+        "createdAt": "2015-10-31T15:59:03.533Z",
+        "updatedAt": "2015-11-01T07:33:50.728Z",
+        "id": 11
+      },
+      {
+        "targy": "szamitogepes kepszerkesztes",
+        "kredit": "2",
+        "terem": "2-104",
+        "user": 1,
+        "createdAt": "2015-10-31T18:11:47.136Z",
+        "updatedAt": "2015-11-01T07:34:17.866Z",
+        "id": 23
+      },
+      {
+        "targy": "wtsr",
+        "kredit": "2",
+        "terem": "dfas",
+        "user": 5,
+        "createdAt": "2015-10-31T19:55:54.127Z",
+        "updatedAt": "2015-10-31T19:55:54.127Z",
+        "id": 25
+      },
+      {
+        "targy": "2342",
+        "kredit": "1",
+        "terem": "234",
+        "user": 5,
+        "createdAt": "2015-10-31T21:21:38.589Z",
+        "updatedAt": "2015-10-31T21:21:57.065Z",
+        "id": 26
+      }
+    ],
+    "user": [
+      {
+        "surname": "Zsivics",
+        "forename": "Mihael",
+        "neptun": "bt0tx2",
+        "password": "$2a$10$/QZYmNE2QML2bZmMWFo.Y.95JfqEqsaGU2QsCs.rTT2BMe5sjEqgO",
+        "role": "riporter",
+        "createdAt": "2015-10-30T12:25:42.116Z",
+        "updatedAt": "2015-10-30T12:25:42.116Z",
+        "id": 1
+      },
+      {
+        "surname": "Zsivics",
+        "forename": "Mihael",
+        "neptun": "abc",
+        "password": "$2a$10$FFqpgeH32N52XrKMr4YFje3BvhhGWlztE2VFLyVghcMcqRHSFSH.C",
+        "role": "riporter",
+        "createdAt": "2015-10-31T12:34:10.107Z",
+        "updatedAt": "2015-10-31T12:34:10.107Z",
+        "id": 2
+      },
+      {
+        "surname": "a",
+        "forename": "a",
+        "neptun": "a",
+        "password": "$2a$10$dcGLjjKW536E.XhdkARE/.1fZycRL.ouX1XmOE2dxTBrmSQX2WGfu",
+        "createdAt": "2015-10-31T15:14:35.508Z",
+        "updatedAt": "2015-10-31T15:14:35.508Z",
+        "id": 3
+      },
+      {
+        "surname": "b",
+        "forename": "b",
+        "neptun": "b",
+        "password": "$2a$10$qn2gJPtdRUr.0shO1c2U3Ob.feUR5H.degznFFgKuok6rMvcdUkze",
+        "createdAt": "2015-10-31T15:33:06.057Z",
+        "updatedAt": "2015-10-31T15:33:06.057Z",
+        "id": 4
+      },
+      {
+        "surname": "bela",
+        "forename": "bela",
+        "neptun": "bela",
+        "password": "$2a$10$HumGt5QbWZmM54hXmYhdpO1jR.EHpByqkFnkL2ydru0JvixIBkhF2",
+        "createdAt": "2015-10-31T15:43:10.104Z",
+        "updatedAt": "2015-10-31T15:43:10.104Z",
+        "id": 5
+      },
+      {
+        "surname": "misi",
+        "forename": "misi",
+        "neptun": "bab",
+        "password": "$2a$10$sSkffeBusxebxG8Gs7BWzO8v.lNxnAM8qRaY360QgelgNl/Ws/WTi",
+        "createdAt": "2015-10-31T21:24:23.038Z",
+        "updatedAt": "2015-10-31T21:24:23.039Z",
+        "id": 6
+      }
+    ]
+  },
+  "schema": {
+    "subject": {
+      "targy": {
+        "type": "string"
+      },
+      "kredit": {
+        "type": "string"
+      },
+      "terem": {
+        "type": "string"
+      },
+      "user": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "user"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "user": {
+      "neptun": {
+        "type": "string",
+        "unique": true
+      },
+      "password": {
+        "type": "string"
+      },
+      "surname": {
+        "type": "string"
+      },
+      "forename": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "subject": {
+      "id": 27
+    },
+    "user": {
+      "id": 6
+    }
+  }
+}
